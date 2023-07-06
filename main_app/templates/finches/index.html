@@ -4,12 +4,14 @@
   <h1>All Finches</h1>
 
   {% for finch in finches %}
-    <div class="finch-card">
-      <h2>{{ finch.name }}</h2>
-      <h3>{{ finch.breed }}</h3>
-      <h3>Found In: {{ finch.location }}</h3>
-      <h3>Common Colors: {{ finch.colors }}</h3>
-    </div>
+    <a href="{% url 'detail' finch.id %}">
+      <div class="finch-card">
+        <h2>{{ finch.name }}</h2>
+        <h3>{{ finch.breed }}</h3>
+        <h3>Found In: {{ finch.location }}</h3>
+        <h3>Common Colors: {{ finch.colors }}</h3>
+      </div>
+    </a>
   {% endfor %}
 
 {% endblock %}
