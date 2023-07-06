@@ -1,8 +1,8 @@
 from django.shortcuts import render
 
 finches = [
-  {'name': 'Lolo', 'breed': 'Pine Siskin', 'location': 'North America', 'color': 'Yellow', 'age': 3},
-  {'name': 'Sachi', 'breed': 'Gouldian Finch', 'location': 'Australia', 'color': 'Rainbow', 'age': 2},
+  {'name': 'Woodstock', 'breed': 'Pine Siskin', 'location': 'North America', 'color': 'Yellow', 'age': 3},
+  {'name': 'Tweety', 'breed': 'Gouldian Finch', 'location': 'Australia', 'color': 'Rainbow', 'age': 2},
 ]
 
 
